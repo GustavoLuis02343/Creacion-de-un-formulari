@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #007c91;
+    color: #010100;
+    padding: 5vw;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(1, 4, 179);
+}
+
+form {
+    width: 100%;
+    max-width: 400px; /* Ajusta este valor según tus necesidades */
+    margin-top: 20px; /* Ajusta el margen superior según necesites */
+    padding: 20px;
+    background-color: #c3c7ce;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4cb2c9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    margin-top: 15px;
+    text-align: center;
+    color: crimson;
+}
+.success-message {
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+    
